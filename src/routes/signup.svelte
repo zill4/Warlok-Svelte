@@ -50,7 +50,7 @@ export let loginWithEmailPassword, loginWithGoogle, logout, user, passwordReset,
          {/if}
     
          <footer>
-            <a class="text-indigo-600 hover:text-pink-700 text-sm place-self-center" href="/Login">Already have an account?</a>
+            <a class="text-indigo-600 hover:text-pink-700 text-sm place-self-center" href="/login">Already have an account?</a>
           </footer> 
     </div>
 </div>

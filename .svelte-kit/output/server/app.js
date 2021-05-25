@@ -90,9 +90,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-2b12679c.js",
+      file: "/./_app/start-60694710.js",
       css: ["/./_app/assets/start-0826e215.css"],
-      js: ["/./_app/start-2b12679c.js", "/./_app/chunks/vendor-2c9c3fa6.js"]
+      js: ["/./_app/start-60694710.js", "/./_app/chunks/vendor-2c9c3fa6.js"]
     },
     fetched: void 0,
     floc: false,
@@ -194,7 +194,7 @@ const module_lookup = {
     return index;
   })
 };
-const metadata_lookup = {"src/routes/__layout.svelte": {"entry": "/./_app/pages/__layout.svelte-f1147c1e.js", "css": ["/./_app/assets/pages/__layout.svelte-edbbb0d9.css"], "js": ["/./_app/pages/__layout.svelte-f1147c1e.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, ".svelte-kit/build/components/error.svelte": {"entry": "/./_app/error.svelte-fa183a48.js", "css": [], "js": ["/./_app/error.svelte-fa183a48.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/index.svelte": {"entry": "/./_app/pages/index.svelte-dc1c15f6.js", "css": ["/./_app/assets/pages/index.svelte-32e1e18a.css"], "js": ["/./_app/pages/index.svelte-dc1c15f6.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/signup.svelte": {"entry": "/./_app/pages/signup.svelte-ffe65641.js", "css": [], "js": ["/./_app/pages/signup.svelte-ffe65641.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/login.svelte": {"entry": "/./_app/pages/login.svelte-09fb8d8c.js", "css": [], "js": ["/./_app/pages/login.svelte-09fb8d8c.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/todos/index.svelte": {"entry": "/./_app/pages/todos/index.svelte-d8d5198a.js", "css": ["/./_app/assets/pages/todos/index.svelte-ab14594b.css"], "js": ["/./_app/pages/todos/index.svelte-d8d5198a.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}};
+const metadata_lookup = {"src/routes/__layout.svelte": {"entry": "/./_app/pages/__layout.svelte-f1147c1e.js", "css": ["/./_app/assets/pages/__layout.svelte-edbbb0d9.css"], "js": ["/./_app/pages/__layout.svelte-f1147c1e.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, ".svelte-kit/build/components/error.svelte": {"entry": "/./_app/error.svelte-fa183a48.js", "css": [], "js": ["/./_app/error.svelte-fa183a48.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/index.svelte": {"entry": "/./_app/pages/index.svelte-dc1c15f6.js", "css": ["/./_app/assets/pages/index.svelte-32e1e18a.css"], "js": ["/./_app/pages/index.svelte-dc1c15f6.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/signup.svelte": {"entry": "/./_app/pages/signup.svelte-f653dbc9.js", "css": [], "js": ["/./_app/pages/signup.svelte-f653dbc9.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/login.svelte": {"entry": "/./_app/pages/login.svelte-a4ff3177.js", "css": [], "js": ["/./_app/pages/login.svelte-a4ff3177.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}, "src/routes/todos/index.svelte": {"entry": "/./_app/pages/todos/index.svelte-d8d5198a.js", "css": ["/./_app/assets/pages/todos/index.svelte-ab14594b.css"], "js": ["/./_app/pages/todos/index.svelte-d8d5198a.js", "/./_app/chunks/vendor-2c9c3fa6.js"], "styles": null}};
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -629,7 +629,7 @@ const Signup = create_ssr_component(($$result, $$props, $$bindings, slots) => {
            <div><input class="${"w-full bg-indigo-600 hover:bg-pink-700 text-white font-bold py-2 px-4 mb-6 rounded"}" type="${"submit"}"></div></form>
          ${``}
     
-         <footer><a class="${"text-indigo-600 hover:text-pink-700 text-sm place-self-center"}" href="${"/Login"}">Already have an account?</a></footer></div></div>`;
+         <footer><a class="${"text-indigo-600 hover:text-pink-700 text-sm place-self-center"}" href="${"/login"}">Already have an account?</a></footer></div></div>`;
 });
 var signup = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -661,8 +661,8 @@ const Login = create_ssr_component(($$result, $$props, $$bindings, slots) => {
            ${``}</form>
     
     
-         <footer><a class="${"text-indigo-600 hover:text-pink-700 text-sm float-left"}" href="${"/Home"}">Forgot Password?</a>
-            <a class="${"text-indigo-600 hover:text-pink-700 text-sm float-right"}" href="${"/SignUp"}">Create Account</a></footer></div></div>
+         <footer><a class="${"text-indigo-600 hover:text-pink-700 text-sm float-left"}" href="${"/"}">Forgot Password?</a>
+            <a class="${"text-indigo-600 hover:text-pink-700 text-sm float-right"}" href="${"/signup"}">Create Account</a></footer></div></div>
 `;
 });
 var login = /* @__PURE__ */ Object.freeze({

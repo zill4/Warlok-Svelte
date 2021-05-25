@@ -73,8 +73,8 @@ let error;
     
     
          <footer>
-            <a class="text-indigo-600 hover:text-pink-700 text-sm float-left" href="/Home">Forgot Password?</a>
-            <a class="text-indigo-600 hover:text-pink-700 text-sm float-right" href="/SignUp">Create Account</a>
+            <a class="text-indigo-600 hover:text-pink-700 text-sm float-left" href="/">Forgot Password?</a>
+            <a class="text-indigo-600 hover:text-pink-700 text-sm float-right" href="/signup">Create Account</a>
           </footer> 
     </div>
 </div>
